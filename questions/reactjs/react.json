@@ -1,0 +1,10 @@
+[
+  { "Id": "1e1a97b397", "name": "React Core" },
+  { "Id": "33a74e9a70", "name": "React Router" },
+  { "Id": "3e88daf889", "name": "Internationalization" },
+  { "Id": "cbcfdf4deb", "name": "React Testing" },
+  { "Id": "a057a052f9", "name": "React Redux" },
+  { "Id": "9727548e7d", "name": "React Native" },
+  { "Id": "5e1c8bd5df", "name": "React libraries" },
+  { "Id": "aa039f42a7", "name": "React Miscellaneous" }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Id": "",
+    "question": "",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHeadd": "",
+        "code": ""
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [
+      {
+        "bulletHead": "",
+        "bullet": ""
+      }
+    ],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  }
+]
