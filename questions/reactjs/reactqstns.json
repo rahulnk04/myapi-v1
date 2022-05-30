@@ -188,7 +188,7 @@
     "images": [
       {
         "imageHead": "State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.",
-        "image": "https://rahulnk04.github.io/myapi-v1/questions/images//statereactimg.jpg"
+        "image": "https://rahulnk04.github.io/myapi-v1/questions/images/statereactimg.jpg"
       }
     ]
   },
