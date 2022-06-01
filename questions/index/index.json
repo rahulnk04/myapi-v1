@@ -1,8 +1,8 @@
 [
   { "ID": "d01f0b27f1", "topic": "React.JS","path":"react", "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/react.png" },
   { "ID": "ea111bd731", "topic": "JavaScript","path":"javascript", "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/javascript.png" },
-  { "ID": "7834c6f101", "topic": "Node.JS","path":"nodejs", "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/node-js.png" },
+  { "ID": "7834c6f101", "topic": "Node.JS","path":"nodejs", "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/nodejs.png" },
   { "ID": "d95de61732", "topic": "Angular","path":"angular", "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/angular.png" },
-  { "ID": "695bd279e2", "topic": "Ecma6","path":"ecma6", "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/es6.jpg" },
+  { "ID": "695bd279e2", "topic": "Ecma6","path":"ecma6", "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/ecmascript.png" },
   { "ID": "cd30e7624d", "topic": "TypeScript","path":"typescript", "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/typescript.png" }
 ]
