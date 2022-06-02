@@ -23,7 +23,7 @@
         "option": "none of the above"
       }
     ],
-    "answer": "stateless component",
+    "answer": "A. stateless component",
     "desc": "",
     "answerCodeTrue": false,
     "answerCode": "",
@@ -54,7 +54,7 @@
         "option": "Error"
       }
     ],
-    "answer": "D Error is the correct option.",
+    "answer": "D. Error is the correct option.",
     "desc": "The two adjacent elements in JSX should be wrapped in an element so, this program will result an error.",
     "answerCodeTrue": false,
     "answerCode": "",
