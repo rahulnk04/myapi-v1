@@ -27,7 +27,8 @@
     "desc": "",
     "answerCodeTrue": false,
     "answerCode": "",
-    "answerIndex": [0]
+    "answerIndex": [0],
+    "isChecked": false
   },
   {
     "question": " What would be the output of the following example?",
@@ -57,7 +58,8 @@
     "desc": "The two adjacent elements in JSX should be wrapped in an element so, this program will result an error.",
     "answerCodeTrue": false,
     "answerCode": "",
-    "answerIndex": [3]
+    "answerIndex": [3],
+    "isChecked": false
   },
   {
     "question": "Consider the below function – which is the correct syntax of arrow function?",
@@ -87,6 +89,7 @@
     "desc": "In ES6 - Below given both of the syntaxes are correct of arow function:",
     "answerCodeTrue": true,
     "answerCode": "const Msg = () => {\n            return 'Good Morning';\n        }\n        const Msg = () => 'Good Morning';",
-    "answerIndex": [0, 1]
+    "answerIndex": [0, 1],
+    "isChecked": false
   }
 ]
