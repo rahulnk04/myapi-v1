@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What kind of component import React from 'react' is?",
+    "qstnCodeTrue": false,
+    "qstnCode": "",
+    "optionsCodeTrue": false,
+    "optionCodes": [
+      {
+        "optionCode": ""
+      }
+    ],
+    "options": [
+      {
+        "option": "stateless component"
+      },
+      {
+        "option": "statefull component"
+      },
+      {
+        "option": "pure component"
+      },
+      {
+        "option": "none of the above"
+      }
+    ],
+    "answer": "stateless component",
+    "desc": "",
+    "answerCodeTrue": false,
+    "answerCode": "",
+    "answerIndex": [0]
+  },
+  {
+    "question": " What would be the output of the following example?",
+    "qstnCodeTrue": true,
+    "qstnCode": "const Helloword=(props)=>  \n        {  \n         return(  \n         <div>  \n         Hello World 1  \n         </div>  \n         <div>  \n         Hello World 2  \n         </div>  \n         );  \n        }  \n        ReactDOM.render(<Helloworld/>,mountNode)",
+    "optionsCodeTrue": false,
+    "optionCodes": [
+      {
+        "optionCode": ""
+      }
+    ],
+    "options": [
+      {
+        "option": "Hello World 1"
+      },
+      {
+        "option": "Hello World 2"
+      },
+      {
+        "option": "Hello World 1 Hello World 2"
+      },
+      {
+        "option": "Error"
+      }
+    ],
+    "answer": "D Error is the correct option.",
+    "desc": "The two adjacent elements in JSX should be wrapped in an element so, this program will result an error.",
+    "answerCodeTrue": false,
+    "answerCode": "",
+    "answerIndex": [3]
+  },
+  {
+    "question": "Consider the below function – which is the correct syntax of arrow function?",
+    "qstnCodeTrue": true,
+    "qstnCode": "const Msg = function() {\n            return 'Good Morning';\n          }",
+    "optionsCodeTrue": true,
+    "optionCodes": [
+      {
+        "optionCode": "const Msg = () => {return 'Good Morning';}"
+      },
+      {
+        "optionCode": "const Msg = () => 'Good Morning'"
+      },
+      {
+        "optionCode": "Both A. and B."
+      },
+      {
+        "optionCode": "None of the above"
+      }
+    ],
+    "options": [
+      {
+        "option": ""
+      }
+    ],
+    "answer": "Both A. and B.",
+    "desc": "In ES6 - Below given both of the syntaxes are correct of arow function:",
+    "answerCodeTrue": true,
+    "answerCode": "const Msg = () => {\n            return 'Good Morning';\n        }\n        const Msg = () => 'Good Morning';",
+    "answerIndex": [0, 1]
+  }
+]
