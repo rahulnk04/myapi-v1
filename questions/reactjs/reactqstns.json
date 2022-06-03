@@ -54,7 +54,7 @@
     "codes": [
       {
         "codeHead": "In the example below text inside <h1> tag is returned as JavaScript function to the render function.",
-        "code": "class App extends React.Component {\n            render() {\n              return(\n                <div>\n                  <h1>{'Welcome to React world!'}</h1>\n                </div>\n              )\n            }\n          }"
+        "code": "class App extends React.Component {\n  render() {\n    return (\n      <div>\n        <h1>{\"Welcome to React world!\"}</h1>\n      </div>\n    );\n  }\n}"
       }
     ],
     "bulletsTrue": false,
@@ -75,11 +75,11 @@
     "codes": [
       {
         "codeHead": "The object representation of React Element would be as follows:",
-        "code": "const element = React.createElement(\n            'div',\n            {id: 'login-btn'},\n            'Login'\n          )"
+        "code": "const element = React.createElement(\"div\", { id: \"login-btn\" }, \"Login\");"
       },
       {
         "codeHead": "The above React.createElement() function returns an object:",
-        "code": "{\n            type: 'div',\n            props: {\n              children: 'Login',\n              id: 'login-btn'\n            }\n          }"
+        "code": "{\n  type: \"div\",\n  props: {\n    children: \"Login\",\n    id: \"login-btn\",\n  },\n}"
       },
       {
         "codeHead": "And finally it renders to the DOM using ReactDOM.render():",
@@ -87,11 +87,11 @@
       },
       {
         "codeHead": "Whereas a component can be declared in several different ways. It can be a class with a render() method or it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:",
-        "code": "const Button = ({ onLogin }) =>\n        <div id={'login-btn'} onClick={onLogin}>Login</div>"
+        "code": "const Button = ({ onLogin }) => (\n  <div id={\"login-btn\"} onClick={onLogin}>\n    Login\n  </div>\n);"
       },
       {
         "codeHead": "Then JSX gets transpiled to a React.createElement() function tree:",
-        "code": "const Button = ({ onLogin }) => React.createElement(\n            'div',\n            { id: 'login-btn', onClick: onLogin },\n            'Login'\n          )"
+        "code": "const Button = ({ onLogin }) =>\n  React.createElement(\"div\", { id: \"login-btn\", onClick: onLogin }, \"Login\");"
       }
     ],
     "bulletsTrue": false,
@@ -112,11 +112,11 @@
     "codes": [
       {
         "codeHead": "Function Components: This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the first parameter and return React elements:",
-        "code": "function Greeting({ message }) {\n            return <h1>{`Hello, ${message}`}</h1>\n          \n          }"
+        "code": "function Greeting({ message }) {\n  return <h1>{`Hello, ${message}`}</h1>;\n}\n"
       },
       {
         "codeHead": "Class Components: You can also use ES6 class to define a component. The above function component can be written as:",
-        "code": "class Greeting extends React.Component {\n            render() {\n              return <h1>{`Hello, ${this.props.message}`}</h1>\n            }\n          }"
+        "code": "class Greeting extends React.Component {\n  render() {\n    return <h1>{`Hello, ${this.props.message}`}</h1>;\n  }\n}\n"
       }
     ],
     "bulletsTrue": false,
@@ -179,7 +179,7 @@
     "codes": [
       {
         "codeHead": "Let's create a user component with message state,",
-        "code": "class User extends React.Component {\n          constructor(props) {\n            super(props)\n        \n            this.state = {\n              message: 'Welcome to React world'\n            }\n          }\n        \n          render() {\n            return (\n              <div>\n                <h1>{this.state.message}</h1>\n              </div>\n            )\n          }\n        }"
+        "code": "class User extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = {\n      message: \"Welcome to React world\",\n    };\n  }\n\n  render() {\n    return (\n      <div>\n        <h1>{this.state.message}</h1>\n      </div>\n    );\n  }\n}\n"
       }
     ],
     "bulletsTrue": false,
@@ -287,7 +287,7 @@
       },
       {
         "codeHead": "Whereas in React you must call preventDefault() explicitly:",
-        "code": "function handleClick(event) {\n            event.preventDefault()\n            console.log('The link was clicked.')\n          }"
+        "code": "function handleClick(event) {\n  event.preventDefault();\n  console.log(\"The link was clicked.\");\n}\n\n"
       }
     ],
     "bulletsTrue": false,
@@ -308,11 +308,11 @@
     "codes": [
       {
         "codeHead": "Binding in Constructor: In JavaScript classes, the methods are not bound by default. The same thing applies for React event handlers defined as class methods. Normally we bind them in constructor.",
-        "code": "class Foo extends Component {\n          constructor(props) {\n            super(props);\n            this.handleClick = this.handleClick.bind(this);\n          }\n          handleClick() {\n            console.log('Click happened');\n          }\n          render() {\n            return <button onClick={this.handleClick}>Click Me</button>;\n          }\n        }"
+        "code": "class Foo extends Component {\n  constructor(props) {\n    super(props);\n    this.handleClick = this.handleClick.bind(this);\n  }\n  handleClick() {\n    console.log(\"Click happened\");\n  }\n  render() {\n    return <button onClick={this.handleClick}>Click Me</button>;\n  }\n}\n"
       },
       {
         "codeHead": "Public class fields syntax: If you don't like to use bind approach then public class fields syntax can be used to correctly bind callbacks.",
-        "code": "handleClick = () => {\n          console.log('this is:', this)\n        }\n        <button onClick={this.handleClick}>\n          {'Click me'}\n        </button>"
+        "code": "handleClick = () => {\n  console.log(\"this is:\", this);\n};\n<button onClick={this.handleClick}>{\"Click me\"}</button>;\n"
       },
       {
         "codeHead": "Arrow functions in callbacks: You can use arrow functions directly in the callbacks.",
