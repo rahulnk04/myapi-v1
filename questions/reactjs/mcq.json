@@ -33,7 +33,7 @@
   {
     "question": " What would be the output of the following example?",
     "qstnCodeTrue": true,
-    "qstnCode": "const Helloword=(props)=>  \n        {  \n         return(  \n           <div>  \n                Hello World 1  \n           </div>  \n           <div>  \n               Hello World 2  \n           </div>  \n         );  \n        }  \nReactDOM.render(<Helloworld/>,mountNode)",
+    "qstnCode": "const Helloword = (props) => {\n  return (\n    <div>Hello World 1</div>\n    <div>Hello World 2</div>\n  );\n};\nReactDOM.render(<Helloworld />, mountNode);\n",
     "optionsCodeTrue": false,
     "optionCodes": [
       {
@@ -64,7 +64,7 @@
   {
     "question": "Consider the below function – which is the correct syntax of arrow function?",
     "qstnCodeTrue": true,
-    "qstnCode": "const Msg = function() {\n            return 'Good Morning';\n          }",
+    "qstnCode": "const Msg = function () {\n  return \"Good Morning\";\n};",
     "optionsCodeTrue": true,
     "optionCodes": [
       {
@@ -88,7 +88,7 @@
     "answer": "Both A. and B.",
     "desc": "In ES6 - Below given both of the syntaxes are correct of arow function:",
     "answerCodeTrue": true,
-    "answerCode": "const Msg = () => {\n            return 'Good Morning';\n        }\nconst Msg = () => 'Good Morning';",
+    "answerCode": "const Msg = function () {\n  return \"Good Morning\";\n};\nconst Msg = () => 'Good Morning';",
     "answerIndex": [0, 1],
     "isChecked": false
   }
