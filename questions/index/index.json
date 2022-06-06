@@ -1,74 +1,62 @@
 [
   {
-     "ID":"d01f0b27f1",
-     "topic":"React.JS",
-     "path":"react",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/react.png"
+    "ID": "d01f0b27f1",
+    "topic": "React.JS",
+    "path": "react",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/react.png"
   },
   {
-     "ID":"ea111bd731",
-     "topic":"JavaScript",
-     "path":"javascript",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/javascript.png"
+    "ID": "ea111bd731",
+    "topic": "JavaScript",
+    "path": "javascript",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/javascript.png"
   },
   {
-     "ID":"7834c6f101",
-     "topic":"Node.JS",
-     "path":"nodejs",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/nodejs.png"
+    "ID": "7834c6f101",
+    "topic": "Node.JS",
+    "path": "nodejs",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/nodejs.png"
   },
   {
-     "ID":"d95de61732",
-     "topic":"Angular",
-     "path":"angular",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/angular.png"
+    "ID": "d95de61732",
+    "topic": "Angular",
+    "path": "angular",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/angular.png"
   },
   {
-     "ID":"695bd279e2",
-     "topic":"Ecma6",
-     "path":"ecma6",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/ecmascript.png"
+    "ID": "cd30e7624d",
+    "topic": "TypeScript",
+    "path": "typescript",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/typescript.png"
   },
   {
-     "ID":"cd30e7624d",
-     "topic":"TypeScript",
-     "path":"typescript",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/typescript.png"
+    "ID": "cb604189ba",
+    "topic": "Html 5",
+    "path": "html",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/html5.png"
   },
   {
-     "ID":"cb604189ba",
-     "topic":"Html 5",
-     "path":"html",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/html5.png"
+    "ID": "866193954a",
+    "topic": "Css 3",
+    "path": "css",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/css3.png"
   },
   {
-     "ID":"866193954a",
-     "topic":"Css 3",
-     "path":"css",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/css3.png"
+    "ID": "bd4596f37a",
+    "topic": "Bootstrap",
+    "path": "bootstrap",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/bootstrap.png"
   },
   {
-     "ID":"bd4596f37a",
-     "topic":"Bootstrap",
-     "path":"bootstrap",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/bootstrap.png"
+    "ID": "f4f948b57a",
+    "topic": "Python",
+    "path": "python",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/python.png"
   },
   {
-     "ID":"f4f948b57a",
-     "topic":"Python",
-     "path":"python",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/python.png"
-  },
-  {
-     "ID":"92469dc398",
-     "topic":"Java",
-     "path":"java",
-     "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/java.png"
-  },
-  {
-    "ID":"9246kkdc398",
-    "topic":"Mongo DB",
-    "path":"mongodb",
-    "logo":"https://rahulnk04.github.io/myapi-v1/questions/images/logos/mongodb.png"
- }
+    "ID": "92469dc398",
+    "topic": "Java",
+    "path": "java",
+    "logo": "https://rahulnk04.github.io/myapi-v1/questions/images/logos/java.png"
+  }
 ]
