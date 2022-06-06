@@ -15,7 +15,7 @@
       },
       {
         "codeHead": "Object literal syntax: The object literal syntax (or object initializer), is a comma-separated set of name-value pairs wrapped in curly braces.",
-        "code": "var object = {\n     name: \"Rahul Ranjan Nayak\"\n     age: 34\n};\n\nObject literal property values can be of any data type, including array, function, and nested object."
+        "code": "var object = {\n     name: \"Rahul Ranjan Nayak\"\n     age: 34\n};\n\\\\Object literal property values can be of any data type, including array, function, and nested object."
       },
       {
         "codeHead": "Function constructor: Create any function and apply the new operator to create object instances,",
@@ -23,11 +23,11 @@
       },
       {
         "codeHead": "Function constructor with prototype: This is similar to function constructor but it uses prototype for their properties and methods,",
-        "code": "function Person() {}\nPerson.prototype.name = \"Rahul Ranjan Nayak\";\nvar object = new Person();\n//This is equivalent to an instance created with an object create method with a function prototype and then call that function with an instance and parameters as arguments.\n\nfunction func {};\n\nnew func(x, y, z);"
+        "code": "function Person() {}\nPerson.prototype.name = \"Rahul Ranjan Nayak\";\nvar object = new Person();\n//This is equivalent to an instance created with an object create method with a function prototype and then call that function with an instance and parameters as arguments.\nfunction func {};\nnew func(x, y, z);"
       },
       {
         "codeHead": "ES6 Class syntax: ES6 introduces class feature to create the objects",
-        "code": "class Person {\n  constructor(name) {\n    this.name = name;\n  }\n}\n\nvar object = new Person(\"Rahul Ranjan Nayak\");"
+        "code": "class Person {\n  constructor(name) {\n    this.name = name;\n  }\n}\nvar object = new Person(\"Rahul Ranjan Nayak\");"
       },
       {
         "codeHead": "Singleton pattern: A Singleton is an object which can only be instantiated one time. Repeated calls to its constructor return the same instance and this way one can ensure that they don't accidentally create multiple instances.",
