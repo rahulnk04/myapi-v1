@@ -1,0 +1,353 @@
+[
+  {
+    "Id": "d65d0kk8cd",
+    "question": "What is Node.js?",
+    "answer": "Node.js is an open-source server side runtime environment built on Chrome's V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side applications using JavaScript.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": ""
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "What are the benefits of using Node.js?",
+    "answer": "From a web server development perspective Node has a number of benefits:",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": ""
+      }
+    ],
+    "bulletsTrue": true,
+    "bullets": [
+      "Great performance! Node was designed to optimize throughput and scalability in web applications and is a good solution for many common web-development problems (e.g. real-time web applications).",
+      "Code is written in \"plain old JavaScript\", which means that less time is spent dealing with \"context shift\" between languages when you're writing both client-side and server-side code.",
+      "JavaScript is a relatively new programming languages and benefits from improvements in language design when compared to other traditional web-server languages (e.g. Python, PHP, etc.) Many other new and pouplar languages compile/convert into JavaScript so you can use TypeScript, CoffeeScript, ClojureScript, Scala, LiveScript, etc.",
+      "The node package manager (NPM) provides access to hundres of thousands of resuable packages. It also has best-in-class dependency resolution and can also be used to automate most of the build toolchain.",
+      "Node.js is portable. It is available on Microsoft Windows, macOS, Linux, Solaris, FreeBSD, OpenBSD, WebOS, and NonStop OS. Furthermore, it is well-supported by many web hosting providers, that often provide specific infrastrucutre and documentation for hosting Node sites.",
+      "It has a very active third party ecosystem and developer community, with lots of people who are willing to help."
+    ],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "What is Node.js Process Model?",
+    "answer": "Node.js runs in a single process and the application code runs in a single thread and thereby needs less resources than other platforms. All the user requests to your web application will be handled by a single thread and all the I/O work or long running job is performed asynchronously for a particular request. So, this single thread doesn't have to wait for the request to complete and is free to handle the next request. When asynchronous I/O work completes then it processes the request further and sends the response.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": ""
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "What are the data types in Node.js?",
+    "answer": "Just like JS, there are two categories of data types in Node: Primitives and Objects.",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "Below are examples",
+        "code": "let myString = \"Rahul Ranjan Nayak\";\nlet myNumber = 24;\nlet myBigint = 25000000000;\nlet myBoolean = true;\nlet muUndefined = undefined;\n// or\nlet muUndefined1;\nconsole.log(muUndefined1);\nlet myNull = null;\nlet myFunction = function () {\n  // code here\n};\nlet myArray = [1, 2, 3, 4];\nconst myBuffer = Buffer.from([8, 6, 7, 5, 3, 0, 9]);\nconst myBuffer1 = Buffer.from(\"I'm a string!\", \"utf-8\");\nconsole.log(myBuffer, myBuffer1);\nconst myObject = {\n  name: \"Rahul Ranjan Nayak\",\n  Role: \"Fullstack Developer\",\n};"
+      }
+    ],
+    "bulletsTrue": true,
+    "bullets": [
+      "String",
+      "Number",
+      "Bigint",
+      "Boolean",
+      "Undefined",
+      "Null",
+      "Function",
+      "Array",
+      "Buffer",
+      "Object"
+    ],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "How to create a simple server in Node.js that returns Hello World?",
+    "answer": "With the help of Shell, Terminal, commandline we can achive this",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "Step 01: Create a project directory",
+        "code": "mkdir myapp\ncd myapp"
+      },
+      {
+        "codeHead": "Step 02: Initialize project and link it to npm",
+        "code": "npm init\n\n//This creates a package.json file in your myapp folder. The file contains references for all npm packages you have downloaded to your project. The command will prompt you to enter a number of things. You can enter your way through all of them EXCEPT this one:\n\n// entry point: (index.js)\nRename this to: app.js"
+      },
+      {
+        "codeHead": "Step 03: Install Express in the myapp directory",
+        "code": "npm install express --save"
+      },
+      {
+        "codeHead": "Step 04: app.js",
+        "code": "var express = require(\"express\");\nvar app = express();\napp.get(\"/\", function (req, res) {\n  res.send(\"Hello World!\");\n});\n\napp.listen(3000, function () {\n  console.log(\"Example app listening on port 3000!\");\n});"
+      },
+      {
+        "codeHead": "Step 05: Run the app",
+        "code": "node app.js"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "Explain the concept of URL module in Node.js?",
+    "answer": "The URL module in Node.js splits up a web address into readable parts.",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "Use require() to include the module:",
+        "code": "var url = require('url');"
+      },
+      {
+        "codeHead": "Then parse an address with the url.parse() method, and it will return a URL object with each part of the address as properties.",
+        "code": "var url = require(\"url\");\nvar adr = \"http://localhost:8080/default.htm?year=2021&month=september\";\nvar q = url.parse(adr, true);\n\nconsole.log(q.host); //returns 'localhost:8080'\nconsole.log(q.pathname); //returns '/default.htm'\nconsole.log(q.search); //returns '?year=2021&month=september'\n\nvar qdata = q.query; //returns an object: { year: 2021, month: 'september' }\nconsole.log(qdata.month); //returns 'september'"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "How to make an HTTP POST request using Node.js?",
+    "answer": "Following is the example to make a post request",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "Use require() to include the http module:",
+        "code": "const https = require(\"https\");\n\nconst obj = {\n  userId: 1,\n  id: 1,\n  title: \"whatever\",\n  completed: false,\n};\n\nconst data = JSON.stringify(obj);\n\nconst options = {\n  hostname: \"jsonplaceholder.typicode.com\",\n  port: 443,\n  path: \"/todos\",\n  method: \"POST\",\n  headers: {\n    \"Content-Type\": \"application/json\",\n    \"Content-Length\": data.length,\n  },\n};\n\nconst req = https.request(options, (res) => {\n  console.log(`statusCode: ${res.statusCode}`);\n\n  res.on(\"data\", (d) => {\n    process.stdout.write(d);\n  });\n});\n\nreq.on(\"error\", (error) => {\n  console.error(error);\n});\n\nreq.write(data);\nreq.end();"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "How to execute an external program from within Node.js?",
+    "answer": "To excecute an external program we can make use of chilprocess - spawn, exec, fork",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "Use require() to include the exec module:",
+        "code": "const { exec } = require('child_process');\n\nexec('\"/path/to/test file/test.sh\" arg1 arg2');\n\nexec('echo \"The $HOME variable is $HOME\"');"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "What does the runtime environment mean in Node.js?",
+    "answer": "The Node.js runtime is the software stack responsible for installing your web service's code and its dependencies and running your service.\nThe runtime environment is literally just the environment your application is running in. This can be used to describe both the hardware and the software that is running your application. How much RAM, what version of node, what operating system, how much CPU cores, can all be referenced when talking about a runtime environment.",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "The Node.js runtime for App Engine in the standard environment is declared in the app.yaml file:",
+        "code": "runtime: nodejs10"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "Explain usage of NODE_ENV?",
+    "answer": "NODE_ENV is an environment variable made popular by the express web server framework. When a node application is run, it can check the value of the environment variable and do different things based on the value.",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "For example, when we work on a project and there are production and development environments. We don't need to use caching in the development env. So we set",
+        "code": "$ NODE_ENV=development"
+      },
+      {
+        "codeHead": "and use the code below",
+        "code": "if (process.env.NODE_ENV === \"development\") {\n  useCaching = false;\n}"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "How do Node.js works?",
+    "answer": "Node is completely event-driven. Basically the server consists of one thread processing one event after another.\n\nA new request coming in is one kind of event. The server starts processing it and when there is a blocking IO operation, it does not wait until it completes and instead registers a callback function. The server then immediately starts to process another event (maybe another request). When the IO operation is finished, that is another kind of event, and the server will process it (i.e. continue working on the request) by executing the callback as soon as it has time.\n\nSo the server never needs to create additional threads or switch between threads, which means it has very little overhead. If you want to make full use of multiple hardware cores, you just start multiple instances of node.js\n\nNode JS Platform does not follow Request/Response Multi-Threaded Stateless Model. It follows Single Threaded with Event Loop Model. Node JS Processing model mainly based on Javascript Event based model with Javascript callback mechanism.\nSingle Threaded Event Loop Model Processing Steps:",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": ""
+      }
+    ],
+    "bulletsTrue": true,
+    "bullets": [
+      "Clients Send request to Web Server.",
+      "Node JS Web Server internally maintains a Limited Thread pool to provide services to the Client Requests.",
+      "Node JS Web Server receives those requests and places them into a Queue. It is known as “Event Queue”.",
+      "Node JS Web Server internally has a Component, known as “Event Loop”. Why it got this name is that it uses indefinite loop to receive requests and process them.",
+      "Event Loop uses Single Thread only. It is main heart of Node JS Platform Processing Model.",
+      "Event Loop checks any Client Request is placed in Event Queue. If no, then wait for incoming requests for indefinitely.",
+      "If yes, then pick up one Client Request from Event Queue",
+      "Starts process that Client Request",
+      "If that Client Request Does Not requires any Blocking IO Operations, then process everything, prepare response and send it back to client.",
+      "f that Client Request requires some Blocking IO Operations like interacting with Database, File System, External Services then it will follow different approach",
+      "Checks Threads availability from Internal Thread Pool",
+      "Picks up one Thread and assign this Client Request to that thread.",
+      "That Thread is responsible for taking that request, process it, perform Blocking IO operations, prepare response and send it back to the Event Loop",
+      "Event Loop in turn, sends that Response to the respective Client."
+    ],
+    "imageTrue": true,
+    "images": [
+      {
+        "imageHead": "Detailed High level Picture",
+        "image": "https://rahulnk04.github.io/myapi-v1/questions/images/event-loop.png"
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "What is the difference between Node.js, AJAX, and JQuery?",
+    "answer": "Node.js is a javascript runtime that makes it possible for us to write back-end of applications.\n\nAsynchronous JavaScript and XML(AJAX) refers to group of technologies that we use to send requests to web servers and retrieve data from them without reloading the page.\n\nJquery is a simple javascript library that helps us with front-end development.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": ""
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "What are the core modules of Node.js?",
+    "answer": "They are defined within the Node.js source and are located in the lib/ folder, and Node.js has several modules compiled into the binary.\n\nCore modules are always preferentially loaded if their identifier is passed to require(). For instance, require('http') will always return the built in HTTP module, even if there is a file by that name.\n\nCore modules can also be identified using the node: prefix, in which case it bypasses the require cache. For instance, require('node:http') will always return the built in HTTP module, even if there is require.cache entry by that name.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": ""
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "Id": "d65d0kk8cd",
+    "question": "What is callback function in Node.js?",
+    "answer": "In node.js, we basically use callbacks for handling asynchronous operations like — making any I/O request, database operations or calling an API to fetch some data. Callback allows our code to not get blocked when a process is taking a long time.",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "Below is an example of callback",
+        "code": "function myNew(next) {\n  console.log(\"Im the one who initates callback\");\n  next(\"nope\", \"success\");\n}\n\nmyNew(function (err, res) {\n  console.log(\"I got back from callback\", err, res);\n});"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ]
+  }
+]
