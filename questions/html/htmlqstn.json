@@ -11,7 +11,9 @@
       "Since it is more strict than HTML is requires less pre-processing by the browser, which may improve your sites performance."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -31,7 +33,9 @@
       "Styling :- letting authors write more sophisticated themes."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -62,7 +66,9 @@
       "<time>"
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -80,7 +86,9 @@
       "It's easier to read and edit, which saves time and money during maintenance."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -91,7 +99,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -102,7 +112,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -134,7 +146,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -165,7 +179,9 @@
       "week :- Picking a specific week."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -185,7 +201,9 @@
       "<span> is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and it's width will be determined by it's content."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -207,7 +225,9 @@
         "imageHead": "Detailed Flow chart",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/layers-browser.png"
       }
-    ]
+    ],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -218,7 +238,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -235,7 +257,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d6lp0kt8cd",
@@ -249,6 +273,8 @@
       "inline elements :- <span>, <a>, <strong>, <i>, <img>"
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   }
 ]

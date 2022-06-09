@@ -8,7 +8,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -24,7 +26,9 @@
       "Uses reusable/composable UI components to develop the view."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -41,7 +45,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -78,7 +84,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -100,7 +108,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -111,7 +121,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -122,7 +134,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -144,7 +158,9 @@
         "imageHead": "State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/statereactimg.jpg"
       }
-    ]
+    ],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -170,7 +186,9 @@
       "Use via this.props.reactProp inside component's render() method."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -181,7 +199,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -203,7 +223,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -235,7 +257,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -262,7 +286,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "1e1a97b397",
@@ -289,6 +315,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   }
 ]

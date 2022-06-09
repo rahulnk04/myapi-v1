@@ -44,7 +44,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -60,7 +62,9 @@
         "imageHead": "The prototype on object instance is available through Object.getPrototypeOf(object) or **proto** property whereas prototype on constructors function is available through Object.prototype.",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/prototype_chain.png"
       }
-    ]
+    ],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -87,7 +91,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -109,7 +115,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -126,7 +134,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -143,7 +153,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -165,7 +177,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -183,7 +197,9 @@
       "A Map may perform better in scenarios involving frequent addition and removal of key pairs"
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -206,7 +222,9 @@
       "Null and Undefined types are not equal with ===, but equal with ==. i.e, null===undefined --> false but null==undefined --> true"
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -217,7 +235,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -234,7 +254,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -251,7 +273,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -268,7 +292,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -285,7 +311,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -302,7 +330,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0ec8cd",
@@ -319,7 +349,61 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
+  },
+  {
+    "Id": "d65d0ec8cd",
+    "question": "What are the differences between cookie, local storage and session storage?",
+    "answer": "Below are some of the differences between cookie, local storage and session storage,",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": "",
+        "language": "javascript"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": true,
+    "table": {
+      "tableHead": [
+        { "path": "feature", "name": "Feature" },
+        { "path": "cookie", "name": "Cookie" },
+        { "path": "localStorage", "name": "Local storage" },
+        { "path": "sessionStorage", "name": "Session storage" }
+      ],
+      "tableBody": [
+        {
+          "feature": "Accessed on client or server side",
+          "cookie": "Both server-side & client-side",
+          "localStorage": "client-side only",
+          "sessionStorage": "client-side only"
+        },
+        {
+          "feature": "Lifetime",
+          "cookie": "As configured using Expires option",
+          "localStorage": "until deleted",
+          "sessionStorage": "until tab is closed"
+        },
+        {
+          "feature": "SSL support",
+          "cookie": "Supported",
+          "localStorage": "Not Supported",
+          "sessionStorage": "Not Supported"
+        },
+        {
+          "feature": "Maximum data size",
+          "cookie": "4Kb",
+          "localStorage": "5MB",
+          "sessionStorage": "5MB"
+        }
+      ]
+    }
   },
   {
     "Id": "d65d0ec8cd",
@@ -336,6 +420,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   }
 ]

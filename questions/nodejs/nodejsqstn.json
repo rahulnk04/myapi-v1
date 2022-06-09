@@ -8,7 +8,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -26,7 +28,9 @@
       "It has a very active third party ecosystem and developer community, with lots of people who are willing to help."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -37,7 +41,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -65,7 +71,9 @@
       "Object"
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -102,7 +110,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -124,7 +134,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -141,7 +153,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -158,7 +172,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -175,7 +191,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -197,7 +215,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -228,7 +248,9 @@
         "imageHead": "Detailed High level Picture",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/event-loop.png"
       }
-    ]
+    ],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -239,7 +261,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -250,7 +274,9 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   },
   {
     "Id": "d65d0kk8cd",
@@ -267,6 +293,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }]
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   }
 ]
