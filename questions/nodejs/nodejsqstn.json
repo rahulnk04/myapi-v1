@@ -76,7 +76,7 @@
       {
         "codeHead": "Step 01: Create a project directory",
         "code": "mkdir myapp\ncd myapp",
-        "language": "javascript"
+        "language": "powershell"
       },
       {
         "codeHead": "Step 02: Initialize project and link it to npm",
@@ -86,7 +86,7 @@
       {
         "codeHead": "Step 03: Install Express in the myapp directory",
         "code": "npm install express --save",
-        "language": "javascript"
+        "language": "powershell"
       },
       {
         "codeHead": "Step 04: app.js",
@@ -96,7 +96,7 @@
       {
         "codeHead": "Step 05: Run the app",
         "code": "node app.js",
-        "language": "javascript"
+        "language": "powershell"
       }
     ],
     "bulletsTrue": false,
