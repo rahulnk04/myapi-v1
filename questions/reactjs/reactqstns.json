@@ -4,19 +4,18 @@
     "question": "What is React?",
     "answer": "React is an open-source front-end JavaScript library that is used for building user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps. React was created by Jordan Walke, a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.",
     "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "" }],
+    "codes": [{ "codeHead": "", "code": "", "language": "jsx" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
     "question": "What are the major features of React?",
     "answer": "The major features of React are:",
     "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "" }],
+    "codes": [{ "codeHead": "", "code": "", "language": "jsx" }],
     "bulletsTrue": true,
     "bullets": [
       "It uses VirtualDOM instead of RealDOM considering that RealDOM manipulations are expensive.",
@@ -25,8 +24,7 @@
       "Uses reusable/composable UI components to develop the view."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
@@ -36,14 +34,14 @@
     "codes": [
       {
         "codeHead": "In the example below text inside <h1> tag is returned as JavaScript function to the render function.",
-        "code": "class App extends React.Component {\n  render() {\n    return (\n      <div>\n        <h1>{\"Welcome to React world!\"}</h1>\n      </div>\n    );\n  }\n}"
+        "code": "class App extends React.Component {\n  render() {\n    return (\n      <div>\n        <h1>{\"Welcome to React world!\"}</h1>\n      </div>\n    );\n  }\n}",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
@@ -53,30 +51,34 @@
     "codes": [
       {
         "codeHead": "The object representation of React Element would be as follows:",
-        "code": "const element = React.createElement(\"div\", { id: \"login-btn\" }, \"Login\");"
+        "code": "const element = React.createElement(\"div\", { id: \"login-btn\" }, \"Login\");",
+        "language": "jsx"
       },
       {
         "codeHead": "The above React.createElement() function returns an object:",
-        "code": "{\n  type: \"div\",\n  props: {\n    children: \"Login\",\n    id: \"login-btn\",\n  },\n}"
+        "code": "{\n  type: \"div\",\n  props: {\n    children: \"Login\",\n    id: \"login-btn\",\n  },\n}",
+        "language": "jsx"
       },
       {
         "codeHead": "And finally it renders to the DOM using ReactDOM.render():",
-        "code": "<div id='login-btn'>Login</div>"
+        "code": "<div id='login-btn'>Login</div>",
+        "language": "jsx"
       },
       {
         "codeHead": "Whereas a component can be declared in several different ways. It can be a class with a render() method or it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:",
-        "code": "const Button = ({ onLogin }) => (\n  <div id={\"login-btn\"} onClick={onLogin}>\n    Login\n  </div>\n);"
+        "code": "const Button = ({ onLogin }) => (\n  <div id={\"login-btn\"} onClick={onLogin}>\n    Login\n  </div>\n);",
+        "language": "jsx"
       },
       {
         "codeHead": "Then JSX gets transpiled to a React.createElement() function tree:",
-        "code": "const Button = ({ onLogin }) =>\n  React.createElement(\"div\", { id: \"login-btn\", onClick: onLogin }, \"Login\");"
+        "code": "const Button = ({ onLogin }) =>\n  React.createElement(\"div\", { id: \"login-btn\", onClick: onLogin }, \"Login\");",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
@@ -86,42 +88,41 @@
     "codes": [
       {
         "codeHead": "Function Components: This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the first parameter and return React elements:",
-        "code": "function Greeting({ message }) {\n  return <h1>{`Hello, ${message}`}</h1>;\n}\n"
+        "code": "function Greeting({ message }) {\n  return <h1>{`Hello, ${message}`}</h1>;\n}\n",
+        "language": "jsx"
       },
       {
         "codeHead": "Class Components: You can also use ES6 class to define a component. The above function component can be written as:",
-        "code": "class Greeting extends React.Component {\n  render() {\n    return <h1>{`Hello, ${this.props.message}`}</h1>;\n  }\n}\n"
+        "code": "class Greeting extends React.Component {\n  render() {\n    return <h1>{`Hello, ${this.props.message}`}</h1>;\n  }\n}\n",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
     "question": "When to use a Class Component over a Function Component?",
     "answer": "If the component needs state or lifecycle methods then use class component otherwise use function component. However, from React 16.8 with the addition of Hooks, you could use state , lifecycle methods and other features that were only available in class component right in your function component. *So, it is always recommended to use Function components, unless you need a React functionality whose Function component equivalent is not present yet, like Error Boundaries *",
     "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "" }],
+    "codes": [{ "codeHead": "", "code": "", "language": "jsx" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
     "question": "What are Pure Components?",
     "answer": "React.PureComponent is exactly the same as React.Component except that it handles the shouldComponentUpdate() method for you. When props or state changes, PureComponent will do a shallow comparison on both props and state. Component on the other hand won't compare current props and state to next out of the box. Thus, the component will re-render by default whenever shouldComponentUpdate is called.",
     "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "" }],
+    "codes": [{ "codeHead": "", "code": "", "language": "jsx" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
@@ -131,7 +132,8 @@
     "codes": [
       {
         "codeHead": "Let's create a user component with message state,",
-        "code": "class User extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = {\n      message: \"Welcome to React world\",\n    };\n  }\n\n  render() {\n    return (\n      <div>\n        <h1>{this.state.message}</h1>\n      </div>\n    );\n  }\n}\n"
+        "code": "class User extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = {\n      message: \"Welcome to React world\",\n    };\n  }\n\n  render() {\n    return (\n      <div>\n        <h1>{this.state.message}</h1>\n      </div>\n    );\n  }\n}\n",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": false,
@@ -142,8 +144,7 @@
         "imageHead": "State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/statereactimg.jpg"
       }
-    ],
-    "language": "jsx"
+    ]
   },
   {
     "Id": "1e1a97b397",
@@ -153,11 +154,13 @@
     "codes": [
       {
         "codeHead": "For example, let us create an element with reactProp property:",
-        "code": "<Element reactProp={'1'} />"
+        "code": "<Element reactProp={'1'} />",
+        "language": "jsx"
       },
       {
         "codeHead": "This reactProp (or whatever you came up with) name then becomes a property attached to React's native props object which originally already exists on all components created using React library.",
-        "code": "props.reactProp"
+        "code": "props.reactProp",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": true,
@@ -167,20 +170,18 @@
       "Use via this.props.reactProp inside component's render() method."
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
     "question": "What is the difference between state and props?",
     "answer": "Both props and state are plain JavaScript objects. While both of them hold information that influences the output of render, they are different in their functionality with respect to component. Props get passed to the component similar to function parameters whereas state is managed within the component similar to variables declared within a function.",
     "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "" }],
+    "codes": [{ "codeHead": "", "code": "", "language": "jsx" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
@@ -190,18 +191,19 @@
     "codes": [
       {
         "codeHead": "If you try to update the state directly then it won't re-render the component.",
-        "code": "//Wrong\n        this.state.message = 'Hello world'"
+        "code": "//Wrong\n        this.state.message = 'Hello world'",
+        "language": "jsx"
       },
       {
         "codeHead": "Instead use setState() method. It schedules an update to a component's state object. When state changes, the component responds by re-rendering.",
-        "code": "//Correct\n        this.setState({ message: 'Hello World' })"
+        "code": "//Correct\n        this.setState({ message: 'Hello World' })",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
@@ -211,26 +213,29 @@
     "codes": [
       {
         "codeHead": "In HTML, the event name usually represents in lowercase as a convention:",
-        "code": "<button onclick='activateLasers()'>"
+        "code": "<button onclick='activateLasers()'>",
+        "language": "jsx"
       },
       {
         "codeHead": "Whereas in React it follows camelCase convention:",
-        "code": "<button onClick={activateLasers}>"
+        "code": "<button onClick={activateLasers}>",
+        "language": "jsx"
       },
       {
         "codeHead": "In HTML, you can return false to prevent default behavior:",
-        "code": "<a href='#' onclick='console.log(\"The link was clicked.\"); return false;' />"
+        "code": "<a href='#' onclick='console.log(\"The link was clicked.\"); return false;' />",
+        "language": "jsx"
       },
       {
         "codeHead": "Whereas in React you must call preventDefault() explicitly:",
-        "code": "function handleClick(event) {\n  event.preventDefault();\n  console.log(\"The link was clicked.\");\n}\n\n"
+        "code": "function handleClick(event) {\n  event.preventDefault();\n  console.log(\"The link was clicked.\");\n}\n\n",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
@@ -240,22 +245,24 @@
     "codes": [
       {
         "codeHead": "Binding in Constructor: In JavaScript classes, the methods are not bound by default. The same thing applies for React event handlers defined as class methods. Normally we bind them in constructor.",
-        "code": "class Foo extends Component {\n  constructor(props) {\n    super(props);\n    this.handleClick = this.handleClick.bind(this);\n  }\n  handleClick() {\n    console.log(\"Click happened\");\n  }\n  render() {\n    return <button onClick={this.handleClick}>Click Me</button>;\n  }\n}\n"
+        "code": "class Foo extends Component {\n  constructor(props) {\n    super(props);\n    this.handleClick = this.handleClick.bind(this);\n  }\n  handleClick() {\n    console.log(\"Click happened\");\n  }\n  render() {\n    return <button onClick={this.handleClick}>Click Me</button>;\n  }\n}\n",
+        "language": "jsx"
       },
       {
         "codeHead": "Public class fields syntax: If you don't like to use bind approach then public class fields syntax can be used to correctly bind callbacks.",
-        "code": "handleClick = () => {\n  console.log(\"this is:\", this);\n};\n<button onClick={this.handleClick}>{\"Click me\"}</button>;\n"
+        "code": "handleClick = () => {\n  console.log(\"this is:\", this);\n};\n<button onClick={this.handleClick}>{\"Click me\"}</button>;\n",
+        "language": "jsx"
       },
       {
         "codeHead": "Arrow functions in callbacks: You can use arrow functions directly in the callbacks.",
-        "code": "handleClick() {\n          console.log('Click happened');\n      }\n      render() {\n          return <button onClick={() => this.handleClick()}>Click Me</button>;\n      }"
+        "code": "handleClick() {\n          console.log('Click happened');\n      }\n      render() {\n          return <button onClick={() => this.handleClick()}>Click Me</button>;\n      }",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "1e1a97b397",
@@ -265,21 +272,23 @@
     "codes": [
       {
         "codeHead": "You can use an arrow function to wrap around an event handler and pass parameters:",
-        "code": "<button onClick={() => this.handleClick(id)} />"
+        "code": "<button onClick={() => this.handleClick(id)} />",
+        "language": "jsx"
       },
       {
         "codeHead": "above is an equivalent to calling .bind:",
-        "code": "<button onClick={this.handleClick.bind(this, id)} />"
+        "code": "<button onClick={this.handleClick.bind(this, id)} />",
+        "language": "jsx"
       },
       {
         "codeHead": "Apart from these two approaches, you can also pass arguments to a function which is defined as arrow function",
-        "code": "<button onClick={this.handleClick(id)} />;\n\nhandleClick = (id) => () => {\n  console.log(\"Hello, your ticket number is\", id);\n};"
+        "code": "<button onClick={this.handleClick(id)} />;\n\nhandleClick = (id) => () => {\n  console.log(\"Hello, your ticket number is\", id);\n};",
+        "language": "jsx"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "jsx"
+    "images": [{ "imageHead": "", "image": "" }]
   }
 ]

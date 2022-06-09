@@ -7,45 +7,51 @@
     "codes": [
       {
         "codeHead": "Object constructor: The simplest way to create an empty object is using the Object constructor. Currently this approach is not recommended.",
-        "code": "var object = new Object();"
+        "code": "var object = new Object();",
+        "language": "javascript"
       },
       {
         "codeHead": "Object's create method: The create method of Object creates a new object by passing the prototype object as a parameter",
-        "code": "var object = Object.create(null);"
+        "code": "var object = Object.create(null);",
+        "language": "javascript"
       },
       {
         "codeHead": "Object literal syntax: The object literal syntax (or object initializer), is a comma-separated set of name-value pairs wrapped in curly braces.",
-        "code": "var object = {\n     name: \"Rahul Ranjan Nayak\"\n     age: 34\n};\n\\\\Object literal property values can be of any data type, including array, function, and nested object."
+        "code": "var object = {\n     name: \"Rahul Ranjan Nayak\"\n     age: 34\n};\n\\\\Object literal property values can be of any data type, including array, function, and nested object.",
+        "language": "javascript"
       },
       {
         "codeHead": "Function constructor: Create any function and apply the new operator to create object instances,",
-        "code": "function Person(name) {\n  this.name = name;\n  this.age = 21;\n}\nvar object = new Person(\"Rahul Ranjan Nayak\");"
+        "code": "function Person(name) {\n  this.name = name;\n  this.age = 21;\n}\nvar object = new Person(\"Rahul Ranjan Nayak\");",
+        "language": "javascript"
       },
       {
         "codeHead": "Function constructor with prototype: This is similar to function constructor but it uses prototype for their properties and methods,",
-        "code": "function Person() {}\nPerson.prototype.name = \"Rahul Ranjan Nayak\";\nvar object = new Person();\n//This is equivalent to an instance created with an object create method with a function prototype and then call that function with an instance and parameters as arguments.\nfunction func {};\nnew func(x, y, z);"
+        "code": "function Person() {}\nPerson.prototype.name = \"Rahul Ranjan Nayak\";\nvar object = new Person();\n//This is equivalent to an instance created with an object create method with a function prototype and then call that function with an instance and parameters as arguments.\nfunction func {};\nnew func(x, y, z);",
+        "language": "javascript"
       },
       {
         "codeHead": "ES6 Class syntax: ES6 introduces class feature to create the objects",
-        "code": "class Person {\n  constructor(name) {\n    this.name = name;\n  }\n}\nvar object = new Person(\"Rahul Ranjan Nayak\");"
+        "code": "class Person {\n  constructor(name) {\n    this.name = name;\n  }\n}\nvar object = new Person(\"Rahul Ranjan Nayak\");",
+        "language": "javascript"
       },
       {
         "codeHead": "Singleton pattern: A Singleton is an object which can only be instantiated one time. Repeated calls to its constructor return the same instance and this way one can ensure that they don't accidentally create multiple instances.",
-        "code": "var object = new (function () {\n  this.name = \"Rahul Ranjan Nayak\";\n})();"
+        "code": "var object = new (function () {\n  this.name = \"Rahul Ranjan Nayak\";\n})();",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
     "question": "What is a prototype chain",
     "answer": "Prototype chaining is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language.",
     "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "" }],
+    "codes": [{ "codeHead": "", "code": "", "language": "javascript" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": true,
@@ -54,8 +60,7 @@
         "imageHead": "The prototype on object instance is available through Object.getPrototypeOf(object) or **proto** property whereas prototype on constructors function is available through Object.prototype.",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/prototype_chain.png"
       }
-    ],
-    "language": "javascript"
+    ]
   },
   {
     "Id": "d65d0ec8cd",
@@ -65,22 +70,24 @@
     "codes": [
       {
         "codeHead": "Call: The call() method invokes a function with a given this value and arguments provided one by one",
-        "code": "var employee1 = { firstName: \"Rahul\", lastName: \"Nayak\" };\nvar employee2 = { firstName: \"Rohit\", lastName: \"Nath\" };\nvar employee3 = { firstName: \"Rohan\", lastName: \"Nayak\" }\nvar employee4 = { firstName: \"Suchismita\", lastName: \"Sahoo\" }\nvar employee5 = { firstName: \"Nikita\", lastName: \"Khuntia\" }\n\nfunction invite(greeting1, greeting2) {\n  console.log(\n    greeting1 + \" \" + this.firstName + \" \" + this.lastName + \", \" + greeting2\n  );\n}\n\ninvite.call(employee1, \"Hello\", \"How are you?\"); // Hello Rahul Nayak, How are you?\ninvite.call(employee2, \"Hello\", \"How are you?\"); // Hello Rohit Nath, How are you?\ninvite.call(employee1, \"Hello\", \"How are you?\"); // Hello Rohan Nayak, How are you?\ninvite.call(employee2, \"Hello\", \"How are you?\"); // Hello Suchismita Sahoo, How are you?\ninvite.call(employee1, \"Hello\", \"How are you?\"); // Hello Nikita Khuntia, How are you?"
+        "code": "var employee1 = { firstName: \"Rahul\", lastName: \"Nayak\" };\nvar employee2 = { firstName: \"Rohit\", lastName: \"Nath\" };\nvar employee3 = { firstName: \"Rohan\", lastName: \"Nayak\" }\nvar employee4 = { firstName: \"Suchismita\", lastName: \"Sahoo\" }\nvar employee5 = { firstName: \"Nikita\", lastName: \"Khuntia\" }\n\nfunction invite(greeting1, greeting2) {\n  console.log(\n    greeting1 + \" \" + this.firstName + \" \" + this.lastName + \", \" + greeting2\n  );\n}\n\ninvite.call(employee1, \"Hello\", \"How are you?\"); // Hello Rahul Nayak, How are you?\ninvite.call(employee2, \"Hello\", \"How are you?\"); // Hello Rohit Nath, How are you?\ninvite.call(employee1, \"Hello\", \"How are you?\"); // Hello Rohan Nayak, How are you?\ninvite.call(employee2, \"Hello\", \"How are you?\"); // Hello Suchismita Sahoo, How are you?\ninvite.call(employee1, \"Hello\", \"How are you?\"); // Hello Nikita Khuntia, How are you?",
+        "language": "javascript"
       },
       {
         "codeHead": "Apply: Invokes the function with a given this value and allows you to pass in arguments as an array",
-        "code": "var employee1 = { firstName: \"Rahul\", lastName: \"Nayak\" };\nvar employee2 = { firstName: \"Rohit\", lastName: \"Nath\" };\nvar employee3 = { firstName: \"Rohan\", lastName: \"Nayak\" }\nvar employee4 = { firstName: \"Suchismita\", lastName: \"Sahoo\" }\nvar employee5 = { firstName: \"Nikita\", lastName: \"Khuntia\" }\n\nfunction invite(greeting1, greeting2) {\n  console.log(\n    greeting1 + \" \" + this.firstName + \" \" + this.lastName + \", \" + greeting2\n  );\n}\n\ninvite.apply(employee1, [\"Hello\", \"How are you?\"]); // Hello Rahul Nayak, How are you?\ninvite.apply(employee2, [\"Hello\", \"How are you?\"]); // Hello Rohit Nath, How are you?\ninvite.apply(employee1, [\"Hello\", \"How are you?\"]); // Hello Rohan Nayak, How are you?\ninvite.apply(employee2, [\"Hello\", \"How are you?\"]); // Hello Suchismita Sahoo, How are you?\ninvite.apply(employee1, [\"Hello\", \"How are you?\"]); // Hello Nikita Khuntia, How are you?"
+        "code": "var employee1 = { firstName: \"Rahul\", lastName: \"Nayak\" };\nvar employee2 = { firstName: \"Rohit\", lastName: \"Nath\" };\nvar employee3 = { firstName: \"Rohan\", lastName: \"Nayak\" }\nvar employee4 = { firstName: \"Suchismita\", lastName: \"Sahoo\" }\nvar employee5 = { firstName: \"Nikita\", lastName: \"Khuntia\" }\n\nfunction invite(greeting1, greeting2) {\n  console.log(\n    greeting1 + \" \" + this.firstName + \" \" + this.lastName + \", \" + greeting2\n  );\n}\n\ninvite.apply(employee1, [\"Hello\", \"How are you?\"]); // Hello Rahul Nayak, How are you?\ninvite.apply(employee2, [\"Hello\", \"How are you?\"]); // Hello Rohit Nath, How are you?\ninvite.apply(employee1, [\"Hello\", \"How are you?\"]); // Hello Rohan Nayak, How are you?\ninvite.apply(employee2, [\"Hello\", \"How are you?\"]); // Hello Suchismita Sahoo, How are you?\ninvite.apply(employee1, [\"Hello\", \"How are you?\"]); // Hello Nikita Khuntia, How are you?",
+        "language": "javascript"
       },
       {
         "codeHead": "bind: returns a new function, allowing you to pass any number of arguments",
-        "code": "var employee1 = { firstName: \"Rahul\", lastName: \"Nayak\" };\nvar employee2 = { firstName: \"Rohit\", lastName: \"Nath\" };\nvar employee3 = { firstName: \"Rohan\", lastName: \"Nayak\" }\nvar employee4 = { firstName: \"Suchismita\", lastName: \"Sahoo\" }\nvar employee5 = { firstName: \"Nikita\", lastName: \"Khuntia\" }\n\nfunction invite(greeting1, greeting2) {\n  console.log(\n    greeting1 + \" \" + this.firstName + \" \" + this.lastName + \", \" + greeting2\n  );\n}\nvar inviteEmployee1 = invite.bind(employee1);\nvar inviteEmployee2 = invite.bind(employee2);\nvar inviteEmployee3 = invite.bind(employee3);\nvar inviteEmployee4 = invite.bind(employee4);\nvar inviteEmployee5 = invite.bind(employee5);\ninviteEmployee1(\"Hello\", \"How are you?\"); // Hello Rahul Nayak, How are you?\ninviteEmployee2(\"Hello\", \"How are you?\"); // Hello Rohit Nath, How are you?\ninviteEmployee3(\"Hello\", \"How are you?\"); // Hello Rohan Nayak, How are you?\ninviteEmployee4(\"Hello\", \"How are you?\"); // Hello Suchismita Sahoo, How are you?\ninviteEmployee5(\"Hello\", \"How are you?\"); // Hello Nikita Khuntia, How are you?"
+        "code": "var employee1 = { firstName: \"Rahul\", lastName: \"Nayak\" };\nvar employee2 = { firstName: \"Rohit\", lastName: \"Nath\" };\nvar employee3 = { firstName: \"Rohan\", lastName: \"Nayak\" }\nvar employee4 = { firstName: \"Suchismita\", lastName: \"Sahoo\" }\nvar employee5 = { firstName: \"Nikita\", lastName: \"Khuntia\" }\n\nfunction invite(greeting1, greeting2) {\n  console.log(\n    greeting1 + \" \" + this.firstName + \" \" + this.lastName + \", \" + greeting2\n  );\n}\nvar inviteEmployee1 = invite.bind(employee1);\nvar inviteEmployee2 = invite.bind(employee2);\nvar inviteEmployee3 = invite.bind(employee3);\nvar inviteEmployee4 = invite.bind(employee4);\nvar inviteEmployee5 = invite.bind(employee5);\ninviteEmployee1(\"Hello\", \"How are you?\"); // Hello Rahul Nayak, How are you?\ninviteEmployee2(\"Hello\", \"How are you?\"); // Hello Rohit Nath, How are you?\ninviteEmployee3(\"Hello\", \"How are you?\"); // Hello Rohan Nayak, How are you?\ninviteEmployee4(\"Hello\", \"How are you?\"); // Hello Suchismita Sahoo, How are you?\ninviteEmployee5(\"Hello\", \"How are you?\"); // Hello Nikita Khuntia, How are you?",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -90,18 +97,19 @@
     "codes": [
       {
         "codeHead": "Parsing: Converting a string to a native object",
-        "code": "JSON.parse(text);"
+        "code": "JSON.parse(text);",
+        "language": "javascript"
       },
       {
         "codeHead": "Stringification: converting a native object to a string so it can be transmitted across the network",
-        "code": "JSON.stringify(object);"
+        "code": "JSON.stringify(object);",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -111,14 +119,14 @@
     "codes": [
       {
         "codeHead": "Some of the examples of this method are,",
-        "code": "let arrayIntegers = [1, 2, 3, 4, 5];\nlet arrayIntegers1 = arrayIntegers.slice(0, 2); // returns [1,2]\nlet arrayIntegers2 = arrayIntegers.slice(2, 3); // returns [3]\nlet arrayIntegers3 = arrayIntegers.slice(4); //returns [5]"
+        "code": "let arrayIntegers = [1, 2, 3, 4, 5];\nlet arrayIntegers1 = arrayIntegers.slice(0, 2); // returns [1,2]\nlet arrayIntegers2 = arrayIntegers.slice(2, 3); // returns [3]\nlet arrayIntegers3 = arrayIntegers.slice(4); //returns [5]",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -128,14 +136,14 @@
     "codes": [
       {
         "codeHead": "Some of the examples of this method are,\nNote: Splice method modifies the original array and returns the deleted array.",
-        "code": "let arrayIntegersOriginal1 = [1, 2, 3, 4, 5];\nlet arrayIntegersOriginal2 = [1, 2, 3, 4, 5];\nlet arrayIntegersOriginal3 = [1, 2, 3, 4, 5];\n\nlet arrayIntegers1 = arrayIntegersOriginal1.splice(0, 2); // returns [1, 2]; original array: [3, 4, 5]\nlet arrayIntegers2 = arrayIntegersOriginal2.splice(3); // returns [4, 5]; original array: [1, 2, 3]\nlet arrayIntegers3 = arrayIntegersOriginal3.splice(3, 1, \"a\", \"b\", \"c\"); //returns [4]; original array: [1, 2, 3, \"a\", \"b\", \"c\", 5]"
+        "code": "let arrayIntegersOriginal1 = [1, 2, 3, 4, 5];\nlet arrayIntegersOriginal2 = [1, 2, 3, 4, 5];\nlet arrayIntegersOriginal3 = [1, 2, 3, 4, 5];\n\nlet arrayIntegers1 = arrayIntegersOriginal1.splice(0, 2); // returns [1, 2]; original array: [3, 4, 5]\nlet arrayIntegers2 = arrayIntegersOriginal2.splice(3); // returns [4, 5]; original array: [1, 2, 3]\nlet arrayIntegers3 = arrayIntegersOriginal3.splice(3, 1, \"a\", \"b\", \"c\"); //returns [4]; original array: [1, 2, 3, \"a\", \"b\", \"c\", 5]",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -145,25 +153,26 @@
     "codes": [
       {
         "codeHead": "Slice",
-        "code": "Slice\nDoesn't modify the original array(immutable)\t\nReturns the subset of original array\t\nUsed to pick the elements from array"
+        "code": "Slice\nDoesn't modify the original array(immutable)\t\nReturns the subset of original array\t\nUsed to pick the elements from array",
+        "language": "javascript"
       },
       {
         "codeHead": "Splice",
-        "code": "Splice\nModifies the original array(mutable)\nReturns the deleted elements as array\nUsed to insert or delete elements to/from array"
+        "code": "Splice\nModifies the original array(mutable)\nReturns the deleted elements as array\nUsed to insert or delete elements to/from array",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
     "question": "How do you compare Object and Map",
     "answer": "Objects are similar to Maps in that both let you set keys to values, retrieve those values, delete keys, and detect whether something is stored at a key. Due to this reason, Objects have been used as Maps historically. But there are important differences that make using a Map preferable in certain cases.",
     "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "" }],
+    "codes": [{ "codeHead": "", "code": "", "language": "javascript" }],
     "bulletsTrue": true,
     "bullets": [
       "The keys of an Object are Strings and Symbols, whereas they can be any value for a Map, including functions, objects, and any primitive.",
@@ -174,8 +183,7 @@
       "A Map may perform better in scenarios involving frequent addition and removal of key pairs"
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -185,7 +193,8 @@
     "codes": [
       {
         "codeHead": "Some of the example which covers the above cases,",
-        "code": "0 == false   // true\n0 === false  // false\n1 == \"1\"     // true\n1 === \"1\"    // false\nnull == undefined // true\nnull === undefined // false\n'0' == false // true\n'0' === false // false\n[]==[] or []===[] //false, refer different objects in memory\n{}=={} or {}==={} //false, refer different objects in memory"
+        "code": "0 == false   // true\n0 === false  // false\n1 == \"1\"     // true\n1 === \"1\"    // false\nnull == undefined // true\nnull === undefined // false\n'0' == false // true\n'0' === false // false\n[]==[] or []===[] //false, refer different objects in memory\n{}=={} or {}==={} //false, refer different objects in memory",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": true,
@@ -197,20 +206,18 @@
       "Null and Undefined types are not equal with ===, but equal with ==. i.e, null===undefined --> false but null==undefined --> true"
     ],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
     "question": "What are lambda or arrow functions",
     "answer": "An arrow function is a shorter syntax for a function expression and does not have its own this, arguments, super, or new.target. These functions are best suited for non-method functions, and they cannot be used as constructors.",
     "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "" }],
+    "codes": [{ "codeHead": "", "code": "", "language": "javascript" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -220,14 +227,14 @@
     "codes": [
       {
         "codeHead": "For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable. For example, in the below example, handler functions assigned to a listener",
-        "code": "const handler = () => console.log(\"This is a click handler function\");\ndocument.addEventListener(\"click\", handler);"
+        "code": "const handler = () => console.log(\"This is a click handler function\");\ndocument.addEventListener(\"click\", handler);",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -237,14 +244,14 @@
     "codes": [
       {
         "codeHead": "For example",
-        "code": "const firstOrder = () => console.log(\"I am a first order function!\");"
+        "code": "const firstOrder = () => console.log(\"I am a first order function!\");",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -254,14 +261,14 @@
     "codes": [
       {
         "codeHead": "For example",
-        "code": "const firstOrderFunc = () =>\n  console.log(\"Hello, I am a First order function\");\nconst higherOrder = (ReturnFirstOrderFunc) => ReturnFirstOrderFunc();\nhigherOrder(firstOrderFunc);"
+        "code": "const firstOrderFunc = () =>\n  console.log(\"Hello, I am a First order function\");\nconst higherOrder = (ReturnFirstOrderFunc) => ReturnFirstOrderFunc();\nhigherOrder(firstOrderFunc);",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -271,14 +278,14 @@
     "codes": [
       {
         "codeHead": "For example",
-        "code": "const unaryFunction = (a) => console.log(a + 10); // Add 10 to the given argument and display the value"
+        "code": "const unaryFunction = (a) => console.log(a + 10); // Add 10 to the given argument and display the value",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -288,14 +295,14 @@
     "codes": [
       {
         "codeHead": "Curried functions are great to improve code reusability and functional composition.",
-        "code": "const multiArgFunction = (a, b, c) => a + b + c;\nconsole.log(multiArgFunction(1, 2, 3)); // 6\n\nconst curryUnaryFunction = (a) => (b) => (c) => a + b + c;\ncurryUnaryFunction(1); // returns a function: b => c =>  1 + b + c\ncurryUnaryFunction(1)(2); // returns a function: c => 3 + c\ncurryUnaryFunction(1)(2)(3); // returns the number 6"
+        "code": "const multiArgFunction = (a, b, c) => a + b + c;\nconsole.log(multiArgFunction(1, 2, 3)); // 6\n\nconst curryUnaryFunction = (a) => (b) => (c) => a + b + c;\ncurryUnaryFunction(1); // returns a function: b => c =>  1 + b + c\ncurryUnaryFunction(1)(2); // returns a function: c => 3 + c\ncurryUnaryFunction(1)(2)(3); // returns the number 6",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -305,14 +312,14 @@
     "codes": [
       {
         "codeHead": "Pure functions are important as they simplify unit testing without any side effects and no need for dependency injection. They also avoid tight coupling and make it harder to break your application by not having any side effects. These principles are coming together with Immutability concept of ES6 by giving preference to const over let usage.",
-        "code": "//Impure\nlet numberArray = [];\nconst impureAddNumber = (number) => numberArray.push(number);\n//Pure\nconst pureAddNumber = (number) => (argNumberArray) =>\n  argNumberArray.concat([number]);\n\n//Display the results\nconsole.log(impureAddNumber(6)); // returns 1\nconsole.log(numberArray); // returns [6]\nconsole.log(pureAddNumber(7)(numberArray)); // returns [6, 7]\nconsole.log(numberArray); // returns [6]"
+        "code": "//Impure\nlet numberArray = [];\nconst impureAddNumber = (number) => numberArray.push(number);\n//Pure\nconst pureAddNumber = (number) => (argNumberArray) =>\n  argNumberArray.concat([number]);\n\n//Display the results\nconsole.log(impureAddNumber(6)); // returns 1\nconsole.log(numberArray); // returns [6]\nconsole.log(pureAddNumber(7)(numberArray)); // returns [6, 7]\nconsole.log(numberArray); // returns [6]",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   },
   {
     "Id": "d65d0ec8cd",
@@ -322,13 +329,13 @@
     "codes": [
       {
         "codeHead": "Let's take an example to demonstrate the usage,",
-        "code": "let counter = 30;\nif (counter === 30) {\n  let counter = 31;\n  console.log(counter); // 31\n}\nconsole.log(counter); // 30 (because the variable in if block won't exist here)"
+        "code": "let counter = 30;\nif (counter === 30) {\n  let counter = 31;\n  console.log(counter); // 31\n}\nconsole.log(counter); // 30 (because the variable in if block won't exist here)",
+        "language": "javascript"
       }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [{ "imageHead": "", "image": "" }],
-    "language": "javascript"
+    "images": [{ "imageHead": "", "image": "" }]
   }
 ]
