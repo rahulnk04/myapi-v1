@@ -37,24 +37,15 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
     "question": "What is a prototype chain",
     "answer": "Prototype chaining is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": true,
@@ -63,7 +54,8 @@
         "imageHead": "The prototype on object instance is available through Object.getPrototypeOf(object) or **proto** property whereas prototype on constructors function is available through Object.prototype.",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/prototype_chain.png"
       }
-    ]
+    ],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -87,12 +79,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -112,12 +100,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -133,12 +117,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -154,12 +134,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -179,24 +155,15 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
     "question": "How do you compare Object and Map",
     "answer": "Objects are similar to Maps in that both let you set keys to values, retrieve those values, delete keys, and detect whether something is stored at a key. Due to this reason, Objects have been used as Maps historically. But there are important differences that make using a Map preferable in certain cases.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": true,
     "bullets": [
       "The keys of an Object are Strings and Symbols, whereas they can be any value for a Map, including functions, objects, and any primitive.",
@@ -207,12 +174,8 @@
       "A Map may perform better in scenarios involving frequent addition and removal of key pairs"
     ],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -234,33 +197,20 @@
       "Null and Undefined types are not equal with ===, but equal with ==. i.e, null===undefined --> false but null==undefined --> true"
     ],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
     "question": "What are lambda or arrow functions",
     "answer": "An arrow function is a shorter syntax for a function expression and does not have its own this, arguments, super, or new.target. These functions are best suited for non-method functions, and they cannot be used as constructors.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -276,12 +226,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -297,12 +243,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -318,12 +260,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -339,12 +277,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -360,12 +294,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -381,12 +311,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0ec8cd",
@@ -402,11 +328,7 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   }
 ]

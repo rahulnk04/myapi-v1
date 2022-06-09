@@ -4,33 +4,19 @@
     "question": "What is React?",
     "answer": "React is an open-source front-end JavaScript library that is used for building user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps. React was created by Jordan Walke, a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
     "question": "What are the major features of React?",
     "answer": "The major features of React are:",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": true,
     "bullets": [
       "It uses VirtualDOM instead of RealDOM considering that RealDOM manipulations are expensive.",
@@ -39,12 +25,8 @@
       "Uses reusable/composable UI components to develop the view."
     ],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -60,12 +42,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -97,12 +75,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -122,54 +96,32 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
     "question": "When to use a Class Component over a Function Component?",
     "answer": "If the component needs state or lifecycle methods then use class component otherwise use function component. However, from React 16.8 with the addition of Hooks, you could use state , lifecycle methods and other features that were only available in class component right in your function component. *So, it is always recommended to use Function components, unless you need a React functionality whose Function component equivalent is not present yet, like Error Boundaries *",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
     "question": "What are Pure Components?",
     "answer": "React.PureComponent is exactly the same as React.Component except that it handles the shouldComponentUpdate() method for you. When props or state changes, PureComponent will do a shallow comparison on both props and state. Component on the other hand won't compare current props and state to next out of the box. Thus, the component will re-render by default whenever shouldComponentUpdate is called.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -190,7 +142,8 @@
         "imageHead": "State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/statereactimg.jpg"
       }
-    ]
+    ],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -214,33 +167,20 @@
       "Use via this.props.reactProp inside component's render() method."
     ],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
     "question": "What is the difference between state and props?",
     "answer": "Both props and state are plain JavaScript objects. While both of them hold information that influences the output of render, they are different in their functionality with respect to component. Props get passed to the component similar to function parameters whereas state is managed within the component similar to variables declared within a function.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -260,12 +200,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -293,12 +229,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -322,12 +254,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   },
   {
     "Id": "1e1a97b397",
@@ -351,11 +279,7 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "jsx"
   }
 ]

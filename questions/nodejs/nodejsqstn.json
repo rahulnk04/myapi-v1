@@ -4,33 +4,19 @@
     "question": "What is Node.js?",
     "answer": "Node.js is an open-source server side runtime environment built on Chrome's V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side applications using JavaScript.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
     "question": "What are the benefits of using Node.js?",
     "answer": "From a web server development perspective Node has a number of benefits:",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": true,
     "bullets": [
       "Great performance! Node was designed to optimize throughput and scalability in web applications and is a good solution for many common web-development problems (e.g. real-time web applications).",
@@ -41,33 +27,20 @@
       "It has a very active third party ecosystem and developer community, with lots of people who are willing to help."
     ],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
     "question": "What is Node.js Process Model?",
     "answer": "Node.js runs in a single process and the application code runs in a single thread and thereby needs less resources than other platforms. All the user requests to your web application will be handled by a single thread and all the I/O work or long running job is performed asynchronously for a particular request. So, this single thread doesn't have to wait for the request to complete and is free to handle the next request. When asynchronous I/O work completes then it processes the request further and sends the response.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
@@ -94,12 +67,8 @@
       "Object"
     ],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
@@ -123,20 +92,13 @@
         "codeHead": "Step 04: app.js",
         "code": "var express = require(\"express\");\nvar app = express();\napp.get(\"/\", function (req, res) {\n  res.send(\"Hello World!\");\n});\n\napp.listen(3000, function () {\n  console.log(\"Example app listening on port 3000!\");\n});"
       },
-      {
-        "codeHead": "Step 05: Run the app",
-        "code": "node app.js"
-      }
+      { "codeHead": "Step 05: Run the app", "code": "node app.js" }
     ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
@@ -156,12 +118,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
@@ -177,12 +135,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
@@ -198,12 +152,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
@@ -219,12 +169,8 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
@@ -244,24 +190,15 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
     "question": "How do Node.js works?",
     "answer": "Node is completely event-driven. Basically the server consists of one thread processing one event after another.\n\nA new request coming in is one kind of event. The server starts processing it and when there is a blocking IO operation, it does not wait until it completes and instead registers a callback function. The server then immediately starts to process another event (maybe another request). When the IO operation is finished, that is another kind of event, and the server will process it (i.e. continue working on the request) by executing the callback as soon as it has time.\n\nSo the server never needs to create additional threads or switch between threads, which means it has very little overhead. If you want to make full use of multiple hardware cores, you just start multiple instances of node.js\n\nNode JS Platform does not follow Request/Response Multi-Threaded Stateless Model. It follows Single Threaded with Event Loop Model. Node JS Processing model mainly based on Javascript Event based model with Javascript callback mechanism.\nSingle Threaded Event Loop Model Processing Steps:",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": true,
     "bullets": [
       "Clients Send request to Web Server.",
@@ -285,49 +222,32 @@
         "imageHead": "Detailed High level Picture",
         "image": "https://rahulnk04.github.io/myapi-v1/questions/images/event-loop.png"
       }
-    ]
+    ],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
     "question": "What is the difference between Node.js, AJAX, and JQuery?",
     "answer": "Node.js is a javascript runtime that makes it possible for us to write back-end of applications.\n\nAsynchronous JavaScript and XML(AJAX) refers to group of technologies that we use to send requests to web servers and retrieve data from them without reloading the page.\n\nJquery is a simple javascript library that helps us with front-end development.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
     "question": "What are the core modules of Node.js?",
     "answer": "They are defined within the Node.js source and are located in the lib/ folder, and Node.js has several modules compiled into the binary.\n\nCore modules are always preferentially loaded if their identifier is passed to require(). For instance, require('http') will always return the built in HTTP module, even if there is a file by that name.\n\nCore modules can also be identified using the node: prefix, in which case it bypasses the require cache. For instance, require('node:http') will always return the built in HTTP module, even if there is require.cache entry by that name.",
     "codeTrue": false,
-    "codes": [
-      {
-        "codeHead": "",
-        "code": ""
-      }
-    ],
+    "codes": [{ "codeHead": "", "code": "" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   },
   {
     "Id": "d65d0kk8cd",
@@ -343,11 +263,7 @@
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
-    "images": [
-      {
-        "imageHead": "",
-        "image": ""
-      }
-    ]
+    "images": [{ "imageHead": "", "image": "" }],
+    "language": "javascript"
   }
 ]
