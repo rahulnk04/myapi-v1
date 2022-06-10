@@ -1,7 +1,7 @@
 [
   {
     "Id": "d65d0ec8cd",
-    "question": "What are the possible ways to create objects in JavaScript",
+    "question": "What are the possible ways to create objects in JavaScript?",
     "answer": "There are many ways to create objects in javascript as below",
     "codeTrue": true,
     "codes": [
@@ -50,7 +50,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is a prototype chain",
+    "question": "What is a prototype chain?",
     "answer": "Prototype chaining is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language.",
     "codeTrue": false,
     "codes": [{ "codeHead": "", "code": "", "language": "javascript" }],
@@ -68,7 +68,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is the difference between Call, Apply and Bind",
+    "question": "What is the difference between Call, Apply and Bind?",
     "answer": "The difference between Call, Apply and Bind can be explained with below examples.\nCall and apply are pretty interchangeable. Both execute the current function immediately. You need to decide whether it’s easier to send in an array or a comma separated list of arguments. You can remember by treating Call is for comma (separated list) and Apply is for Array.\nWhereas Bind creates a new function that will have this set to the first parameter passed to bind().",
     "codeTrue": true,
     "codes": [
@@ -97,7 +97,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is JSON and its common operations",
+    "question": "What is JSON and its common operations?",
     "answer": "JSON is a text-based data format following JavaScript object syntax, which was popularized by Douglas Crockford. It is useful when you want to transmit data across a network and it is basically just a text file with an extension of .json, and a MIME type of application/json",
     "codeTrue": true,
     "codes": [
@@ -121,7 +121,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is the purpose of the array slice method",
+    "question": "What is the purpose of the array slice method?",
     "answer": "The slice() method returns the selected elements in an array as a new array object. It selects the elements starting at the given start argument, and ends at the given optional end argument without including the last element. If you omit the second argument then it selects till the end.",
     "codeTrue": true,
     "codes": [
@@ -140,7 +140,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is the purpose of the array splice method",
+    "question": "What is the purpose of the array splice method?",
     "answer": "The splice() method is used either adds/removes items to/from an array, and then returns the removed item. The first argument specifies the array position for insertion or deletion whereas the optional second argument indicates the number of elements to be deleted. Each additional argument is added to the array.",
     "codeTrue": true,
     "codes": [
@@ -159,7 +159,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is the difference between slice and splice",
+    "question": "What is the difference between slice and splice?",
     "answer": "Some of the major difference are",
     "codeTrue": true,
     "codes": [
@@ -183,7 +183,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "How do you compare Object and Map",
+    "question": "How do you compare Object and Map?",
     "answer": "Objects are similar to Maps in that both let you set keys to values, retrieve those values, delete keys, and detect whether something is stored at a key. Due to this reason, Objects have been used as Maps historically. But there are important differences that make using a Map preferable in certain cases.",
     "codeTrue": false,
     "codes": [{ "codeHead": "", "code": "", "language": "javascript" }],
@@ -203,7 +203,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is the difference between == and === operators",
+    "question": "What is the difference between == and === operators?",
     "answer": "JavaScript provides both strict(===, !==) and type-converting(==, !=) equality comparison. The strict operators take type of variable in consideration, while non-strict operators make type correction/conversion based upon values of variables.\nThe strict operators follow the below conditions for different types,",
     "codeTrue": true,
     "codes": [
@@ -228,10 +228,10 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What are lambda or arrow functions",
+    "question": "What are lambda or arrow functions?",
     "answer": "An arrow function is a shorter syntax for a function expression and does not have its own this, arguments, super, or new.target. These functions are best suited for non-method functions, and they cannot be used as constructors.",
-    "codeTrue": false,
-    "codes": [{ "codeHead": "", "code": "", "language": "javascript" }],
+    "codeTrue": true,
+    "codes": [{ "codeHead": "Example", "code": "let myFunction = (a, b) => a * b;", "language": "javascript" }],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
@@ -241,7 +241,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is a first class function",
+    "question": "What is a first class function?",
     "answer": "In Javascript, functions are first class objects. First-class functions means when functions in that language are treated like any other variable.",
     "codeTrue": true,
     "codes": [
@@ -260,7 +260,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is a first order function",
+    "question": "What is a first order function?",
     "answer": "First-order function is a function that doesn’t accept another function as an argument and doesn’t return a function as its return value.",
     "codeTrue": true,
     "codes": [
@@ -279,7 +279,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is a higher order function",
+    "question": "What is a higher order function?",
     "answer": "Higher-order function is a function that accepts another function as an argument or returns a function as a return value or both.",
     "codeTrue": true,
     "codes": [
@@ -298,7 +298,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is a unary function",
+    "question": "What is a unary function?",
     "answer": "Unary function (i.e. monadic) is a function that accepts exactly one argument. It stands for a single argument accepted by a function.",
     "codeTrue": true,
     "codes": [
@@ -317,7 +317,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is the currying function",
+    "question": "What is the currying function?",
     "answer": "Currying is the process of taking a function with multiple arguments and turning it into a sequence of functions each with only a single argument. Currying is named after a mathematician Haskell Curry. By applying currying, a n-ary function turns it into a unary function.",
     "codeTrue": true,
     "codes": [
@@ -336,7 +336,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is a pure function",
+    "question": "What is a pure function?",
     "answer": "A Pure function is a function where the return value is only determined by its arguments without any side effects. i.e, If you call a function with the same arguments 'n' number of times and 'n' number of places in the application then it will always return the same value.",
     "codeTrue": true,
     "codes": [
@@ -407,7 +407,7 @@
   },
   {
     "Id": "d65d0ec8cd",
-    "question": "What is the purpose of the let keyword",
+    "question": "What is the purpose of the let keyword?",
     "answer": "The let statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the var keyword used to define a variable globally, or locally to an entire function regardless of block scope.",
     "codeTrue": true,
     "codes": [
