@@ -161,16 +161,11 @@
     "Id": "d65d0ec8cd",
     "question": "What is the difference between slice and splice?",
     "answer": "Some of the major difference are",
-    "codeTrue": true,
+    "codeTrue": false,
     "codes": [
       {
-        "codeHead": "Slice",
-        "code": "Slice\nDoesn't modify the original array(immutable)\t\nReturns the subset of original array\t\nUsed to pick the elements from array",
-        "language": "javascript"
-      },
-      {
-        "codeHead": "Splice",
-        "code": "Splice\nModifies the original array(mutable)\nReturns the deleted elements as array\nUsed to insert or delete elements to/from array",
+        "codeHead": "",
+        "code": "",
         "language": "javascript"
       }
     ],
@@ -178,8 +173,27 @@
     "bullets": [],
     "imageTrue": false,
     "images": [{ "imageHead": "", "image": "" }],
-    "hasTable": false,
-    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
+    "hasTable": true,
+    "table": {
+      "tableHead": [
+        { "path": "slice", "name": "Slice" },
+        { "path": "splice", "name": "Splice" }
+      ],
+      "tableBody": [
+        {
+          "slice": "Doesn't modify the original array(immutable)",
+          "splice": "Modifies the original array(mutable)"
+        },
+        {
+          "slice": "Returns the subset of original array",
+          "splice": "Returns the deleted elements as array"
+        },
+        {
+          "slice": "Used to pick the elements from array",
+          "splice": "Used to insert or delete elements to/from array"
+        }
+      ]
+    }
   },
   {
     "Id": "d65d0ec8cd",
@@ -231,7 +245,13 @@
     "question": "What are lambda or arrow functions?",
     "answer": "An arrow function is a shorter syntax for a function expression and does not have its own this, arguments, super, or new.target. These functions are best suited for non-method functions, and they cannot be used as constructors.",
     "codeTrue": true,
-    "codes": [{ "codeHead": "Example", "code": "let myFunction = (a, b) => a * b;", "language": "javascript" }],
+    "codes": [
+      {
+        "codeHead": "Example",
+        "code": "let myFunction = (a, b) => a * b;",
+        "language": "javascript"
+      }
+    ],
     "bulletsTrue": false,
     "bullets": [],
     "imageTrue": false,
