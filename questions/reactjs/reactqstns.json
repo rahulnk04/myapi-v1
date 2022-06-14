@@ -718,7 +718,7 @@
     "hasTable": true,
     "table": {
       "tableHead": [
-        { "path": "createElement", "name": "cloneElement()" },
+        { "path": "createElement", "name": "createElement()" },
         { "path": "cloneElement", "name": "cloneElement()" }
       ],
       "tableBody": [
