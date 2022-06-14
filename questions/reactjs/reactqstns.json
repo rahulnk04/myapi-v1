@@ -437,5 +437,146 @@
     "images": [{ "imageHead": "", "image": "" }],
     "hasTable": false,
     "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
+  },
+  {
+    "Id": "1e1a97b397",
+    "question": "What is Virtual DOM?",
+    "answer": "The Virtual DOM (VDOM) is an in-memory representation of Real DOM. The representation of a UI is kept in memory and synced with the \"real\" DOM. It's a step that happens between the render function being called and the displaying of elements on the screen. This entire process is called reconciliation.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": "",
+        "language": "jsx"
+      }
+    ],
+    "bulletsTrue": true,
+    "bullets": [
+      "A virtual DOM is a simple JavaScript object that is the exact copy of the corresponding real DOM.",
+      "It can be considered as a node tree that consists of elements, their attributes, and other properties.",
+      "Using the render function in React, it creates a node tree and updates it based on the changes that occur in the data model.",
+      "These changes are usually triggered by users, or the actions caused by the system."
+    ],
+    "imageTrue": false,
+    "images": [{ "imageHead": "", "image": "" }],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
+  },
+  {
+    "Id": "1e1a97b397",
+    "question": "How Virtual DOM works?",
+    "answer": "The Virtual DOM works in three simple steps",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": "",
+        "language": "jsx"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": true,
+    "images": [
+      {
+        "imageHead": "Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.",
+        "image": "https://rahulnk04.github.io/myapi-v1/questions/images/vdom1.png"
+      },
+      {
+        "imageHead": "Then the difference between the previous DOM representation and the new one is calculated.",
+        "image": "https://rahulnk04.github.io/myapi-v1/questions/images/vdom2.png"
+      },
+      {
+        "imageHead": "Once the calculations are done, the real DOM will be updated with only the things that have actually changed.",
+        "image": "https://rahulnk04.github.io/myapi-v1/questions/images/vdom3.png"
+      }
+    ],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
+  },
+  {
+    "Id": "1e1a97b397",
+    "question": "What is the difference between Shadow DOM and Virtual DOM?",
+    "answer": "The Shadow DOM is a browser technology designed primarily for scoping variables and CSS in web components.\nThe Virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": "",
+        "language": "jsx"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ],
+    "hasTable": true,
+    "table": {
+      "tableHead": [
+        { "path": "virtualdom", "name": "Virtual DOM" },
+        { "path": "shadowdom", "name": "Shadow  DOM" }
+      ],
+      "tableBody": [
+        {
+          "virtualdom": "It revolves around solving performance issues.",
+          "shadowdom": "It revolves around the concept of encapsulation."
+        },
+        {
+          "virtualdom": "It is a complete representation of an actual DOM.",
+          "shadowdom": "It is not a complete representation of the entire DOM."
+        },
+        {
+          "virtualdom": "It groups together several changes and does a single re-render instead of many small ones.",
+          "shadowdom": "It adds a subtree of DOM elements into the rendering of a document, instead of adding it to the main document’s DOM tree."
+        },
+        {
+          "virtualdom": "It creates a copy of the whole DOM object.",
+          "shadowdom": "It creates small pieces of the DOM object having their own, isolated scope."
+        },
+        {
+          "virtualdom": "It does not isolate the DOM.",
+          "shadowdom": "It isolates the DOM."
+        },
+        {
+          "virtualdom": "It does not help with CSS scoping.",
+          "shadowdom": "It helps with CSS scoping."
+        }
+      ]
+    }
+  },
+  {
+    "Id": "1e1a97b397",
+    "question": "What is React Fiber and what are the main goals of React Fiber?",
+    "answer": "Fiber is the new reconciliation engine or reimplementation of core algorithm in React v16. The goal of React Fiber is to increase its suitability for areas like animation, layout, gestures, ability to pause, abort, or reuse work and assign priority to different types of updates; and new concurrency primitives.\n\nThe goal of React Fiber is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is incremental rendering: the ability to split rendering work into chunks and spread it out over multiple frames.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": "",
+        "language": "jsx"
+      }
+    ],
+    "bulletsTrue": true,
+    "bullets": [
+      "Ability to split interruptible work in chunks.",
+      "Ability to prioritize, rebase and reuse work in progress.",
+      "Ability to yield back and forth between parents and children to support layout in React.",
+      "Ability to return multiple elements from render().",
+      "Better support for error boundaries."
+    ],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
   }
 ]
