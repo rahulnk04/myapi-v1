@@ -578,5 +578,167 @@
     ],
     "hasTable": false,
     "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
+  },
+  {
+    "Id": "1e1a97b397",
+    "question": "What are controlled components?",
+    "answer": "In React, Controlled Components are those in which form’s data is handled by the component’s state. It takes its current value through props and makes changes through callbacks like onClick, onChange, etc. A parent component manages its own state and passes the new values as props to the controlled component.",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "Example",
+        "code": "import React from \"react\";\n\nconst App = () => {\n  const [name, setName] = React.useState(\"\");\n\n  const handleSubmit = () => {\n    alert(`Name: ${name}`);\n  };\n\n  return (\n    <React.Fragment>\n      <h3>Controlled Component</h3>\n      <form onSubmit={handleSubmit}>\n        <label>Name:</label>\n        <input\n          name=\"name\"\n          value={name}\n          onChange={(e) => setName(e.target.value)}\n        />\n        <button type=\"submit\">Submit</button>\n      </form>\n    </React.Fragment>\n  );\n};\n\nexport default App;",
+        "language": "jsx"
+      }
+    ],
+    "bulletsTrue": true,
+    "bullets": [
+      "We are creating a simple form that comprises an input field with a label name and a submit button. We are creating an onSubmit function that triggers when we submit the form which shows the name that we have filled in the alert box.",
+      "We are creating a state name that stores the value we enter into the input field using the useState hook.",
+      "We are creating an onChange function in the input field that stores the data we are entering in the input field to our state.",
+      "There is another function handleSumit that gets triggered when we submit the form and it shows the name we have entered on the alert box."
+    ],
+    "imageTrue": true,
+    "images": [
+      {
+        "imageHead": "Output",
+        "image": "https://rahulnk04.github.io/myapi-v1/questions/images/controlledCompReact.PNG"
+      }
+    ],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
+  },
+  {
+    "Id": "1e1a97b397",
+    "question": "What are uncontrolled components?",
+    "answer": "Uncontrolled Components are the components that are not controlled by the React state and are handled by the DOM (Document Object Model). So in order to access any value that has been entered we take the help of refs.\n\nFor instance, if we want to add a file as an input, this cannot be controlled as this depends on the browser so this is an example of an uncontrolled input.",
+    "codeTrue": true,
+    "codes": [
+      {
+        "codeHead": "Example",
+        "code": "import React from \"react\";\n\nconst App = () => {\n  const inputRef = React.useRef(null);\n\n  const handleSubmit = () => {\n    alert(`Name: ${inputRef.current.value}`);\n  };\n\n  return (\n    <React.Fragment>\n      <h3>Uncontrolled Component</h3>\n      <form onSubmit={handleSubmit}>\n        <label>Name :</label>\n        <input type=\"text\" name=\"name\" ref={inputRef} />\n        <button type=\"submit\">Submit</button>\n      </form>\n    </React.Fragment>\n  );\n};\n\nexport default App;\n",
+        "language": "jsx"
+      }
+    ],
+    "bulletsTrue": true,
+    "bullets": [
+      "We are creating a simple form that comprises an input field with a label name and a submit button. We are creating an onSubmit function that triggers when we submit the form which shows the name that we have filled in the alert box.",
+      "We are accessing the name we have filled using useRef."
+    ],
+    "imageTrue": true,
+    "images": [
+      {
+        "imageHead": "Output",
+        "image": "https://rahulnk04.github.io/myapi-v1/questions/images/uncontrolledCompReact.PNG"
+      }
+    ],
+    "hasTable": false,
+    "table": { "tableHead": [{ "path": "", "name": "" }], "tableBody": [{}] }
+  },
+  {
+    "Id": "1e1a97b397",
+    "question": "What is the difference between Controlled and Uncontrolled Components?",
+    "answer": "Difference is shown in the tabular form below.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": "",
+        "language": "jsx"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ],
+    "hasTable": true,
+    "table": {
+      "tableHead": [
+        { "path": "controlled", "name": "Controlled  Component" },
+        { "path": "uncontrolled", "name": "Uncontrolled Component" }
+      ],
+      "tableBody": [
+        {
+          "controlled": "The component is under control of the component’s state.",
+          "uncontrolled": "Components are under the control of DOM."
+        },
+        {
+          "controlled": "These components are predictable as are controlled by the state of the component.",
+          "uncontrolled": "Are Uncontrolled because during the life cycle methods the data may loss."
+        },
+        {
+          "controlled": "Internal state is not maintained.",
+          "uncontrolled": "Internal state is maintained."
+        },
+        {
+          "controlled": "It accepts the current value as props.",
+          "uncontrolled": "We access the values using refs."
+        },
+        {
+          "controlled": "Does not maintain its internal state.",
+          "uncontrolled": "Maintains its internal state."
+        },
+        {
+          "controlled": "Controlled by the parent component.",
+          "uncontrolled": "Controlled by the DOM itself."
+        },
+        {
+          "controlled": "Have better control on the form data and values.",
+          "uncontrolled": "Has very limited control over form values and data."
+        }
+      ]
+    }
+  },
+  {
+    "Id": "1e1a97b397",
+    "question": "What is the difference between createElement and cloneElement?",
+    "answer": "JSX elements will be transpiled to React.createElement() functions to create React elements which are going to be used for the object representation of UI. Whereas cloneElement is used to clone an element and pass it new props.",
+    "codeTrue": false,
+    "codes": [
+      {
+        "codeHead": "",
+        "code": "",
+        "language": "jsx"
+      }
+    ],
+    "bulletsTrue": false,
+    "bullets": [],
+    "imageTrue": false,
+    "images": [
+      {
+        "imageHead": "",
+        "image": ""
+      }
+    ],
+    "hasTable": true,
+    "table": {
+      "tableHead": [
+        { "path": "createElement", "name": "cloneElement()" },
+        { "path": "cloneElement", "name": "cloneElement()" }
+      ],
+      "tableBody": [
+        {
+          "createElement": "createElement is the code that JSX gets compiled or converted into and is used by reacting to create elements.",
+          "cloneElement": "cloneElement is used for cloning elements and passing them new props."
+        },
+        {
+          "createElement": "This method is used to describe how the User Interface looks.",
+          "cloneElement": "This method is used to manipulate the elements."
+        },
+        {
+          "createElement": "createElement requires type, props, and children as arguments.",
+          "cloneElement": "cloneElement requires elements, props, and children as arguments."
+        },
+        {
+          "createElement": "It creates and returns a new element with the type as given in the arguments.",
+          "cloneElement": "It clones and returns a new element with the properties of a given element."
+        }
+      ]
+    }
   }
 ]
