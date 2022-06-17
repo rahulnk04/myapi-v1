@@ -808,8 +808,18 @@
     "codeTrue": true,
     "codes": [
       {
-        "codeHead": "Example",
-        "code": "import * as React from 'react';\n\nconst TODOS = [\n  { id: '1', task: 'Do this', completed: true },\n  { id: '2', task: 'Do that', completed: false },\n];\n\nconst App = () => {\n  return <TodoList data={TODOS} />;\n};\n\nconst TodoList = ({ data }) => {\n  return (\n    <ul>\n      {data.map((item) => (\n        <TodoItem key={item.id} item={item} />\n      ))}\n    </ul>\n  );\n};\n\nconst TodoItem = ({ item }) => {\n  return (\n    <li>\n      {item.task} {item.completed.toString()}\n    </li>\n  );\n};\n\nexport default App;",
+        "codeHead": "App.jsx - Higher Order Component for Todolist component",
+        "code": "import React from \"react\";\nimport TodoList from \"./TodoList\";\n\nexport default function App() {\n  const TODOS = [\n    { id: \"1\", task: \"Do this\", completed: true },\n    { id: \"2\", task: \"Do that\", completed: false }\n  ];\n  return (\n    <React.Fragment>\n      <TodoList data={TODOS} />\n    </React.Fragment>\n  );\n}",
+        "language": "jsx"
+      },
+      {
+        "codeHead": "TodoList.jsx - Higher order component for TodoItem Component",
+        "code": "import React from \"react\";\nimport TodoItem from \"./TodoItem\";\n\nconst TodoList = ({ data }) => {\n  return (\n    <ul>\n      {data.map((item) => (\n        <TodoItem key={item.id} item={item} />\n      ))}\n    </ul>\n  );\n};\nexport default TodoList;",
+        "language": "jsx"
+      },
+      {
+        "codeHead": "TodoItem.jsx",
+        "code":  "import React from \"react\";\n\nconst TodoItem = ({ item }) => {\n  return (\n    <li>\n      {item.task} {item.completed.toString()}\n    </li>\n  );\n};\nexport default TodoItem;",
         "language": "jsx"
       }
     ],
