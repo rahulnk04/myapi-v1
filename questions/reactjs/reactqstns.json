@@ -744,7 +744,7 @@
   {
     "Id": "1e1a97b397",
     "question": "What are the different phases of component lifecycle?",
-    "answer": "The component lifecycle has three distinct lifecycle phases:\nMounting\nUpdating\nUnmounting",
+    "answer": "The component lifecycle has three distinct lifecycle phases:",
     "codeTrue": false,
     "codes": [
       {
@@ -772,7 +772,7 @@
   {
     "Id": "1e1a97b397",
     "question": "What are the lifecycle methods of React?",
-    "answer": "The lifecycle methods are:\ncomponentWillMount\ncomponentDidMount\ncomponentWillReceiveProps\nshouldComponentUpdate\ncomponentWillUpdate\ncomponentDidUpdate\ncomponentWillUnmount",
+    "answer": "The lifecycle methods are:",
     "codeTrue": false,
     "codes": [
       {
